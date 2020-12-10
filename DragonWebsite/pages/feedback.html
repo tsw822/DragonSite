@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Dragon World</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/feedback.css">
+</head>
+<body>
+   <header>
+       <h2>Welcome to the magic world</h2>
+   </header>
+   <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="images.html">Images</a>
+                <ul>
+                    <li><a href="#">Drawing</a>
+                        <ul>
+                            <li><a href="#">Ice Dragon</a></li>
+                            <li><a href="#">Fire Dragon</a></li>
+                            <li><a href="#">Rain Dragon</a></li>
+                            <li><a href="#">Forest Dragon</a></li>
+                            <li><a href="#">Night Dragon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Photo</a>
+                        <ul>
+                            <li><a href="#">Ice Dragon</a></li>
+                            <li><a href="#">Fire Dragon</a></li>
+                            <li><a href="#">Rain Dragon</a></li>
+                            <li><a href="#">Forest Dragon</a></li>
+                            <li><a href="#">Night Dragon</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Coloring</a>
+                        <ul>
+                            <li><a href="#">Ice Dragon</a></li>
+                            <li><a href="#">Fire Dragon</a></li>
+                            <li><a href="#">Rain Dragon</a></li>
+                            <li><a href="#">Forest Dragon</a></li>
+                            <li><a href="#">Night Dragon</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="media.html">Media</a>
+                <ul>
+                    <li><a href="#">Ice Wing Dragon</a></li>
+                    <li><a href="#">Fire Wing Dragon</a></li>
+                    <li><a href="#">Rain Wing Dragon</a></li>
+                    <li><a href="#">Forest Wing Dragon</a></li>
+                    <li><a href="#">Night Wing Dragon</a></li>
+                </ul>
+            </li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <aside id="navbar">
+        <h4>Explore Dragon World</h4>
+        <div class="line"></div>
+        <figure>
+            <img src="../images/dd1.jpg" alt="Dragon" height="150">
+            <figcaption><a href="index.html">Home</a></figcaption> 
+        </figure>
+        <div class="line"></div>
+        <figure>
+            <img src="../images/dd2.jpg" alt="Dragon" height="150">
+            <figcaption><a href="images.html">Images</a></figcaption> 
+        </figure>
+        <div class="line"></div>
+        <figure>
+            <img src="../images/dd3.jpg" alt="Dragon" height="150">
+            <figcaption><a href="media.html">Media</a></figcaption> 
+        </figure>
+        <div class="line"></div>
+        <figure>
+            <img src="../images/dd5.jpg" alt="Dragon" height="150">
+            <figcaption><a href="feedback.html">Feedback</a></figcaption> 
+        </figure>
+   </aside>
+   <section>
+        <h1>Join Us Now</h1>
+        <div class="line"></div>
+        <div class="articleBody clear">
+            <img src="../images/star.jpg" width="680" height="60">
+            <form action="" name="contact" id="contact" method="POST">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name" required autofocus><br>
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Group you'd like to join :</legend>
+                    <select name="group" id="group">
+                        <optgroup label="Images">
+                            <option value="img1">Drawing</option>
+                            <option value="img2">Photoing</option>
+                            <option value="img3">Coloring</option>
+                        </optgroup>
+                        <optgroup label="Media">
+                            <option value="med1">Record</option>
+                            <option value="med2">Produce</option>
+                            <option value="med3">Collect</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>What do you expect more in the future (multiple):</legend>
+                    <select name="future" id="future" size="4" multiple>
+                        <option value="1">Drawing</option>
+                        <option value="2">Coloring Sheet</option>
+                        <option value="3">Story</option>
+                        <option value="4">Video</option>
+                        <option value="5">Hand Craft</option>
+                        <option value="6">Song</option>
+                        <option value="7">Poem</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Your feedback</legend>
+                    <textarea name="feedback" id="feedback" placeholder="Please leave your feedback here."></textarea>
+                </fieldset>
+                <fieldset class="submit">
+                    <legend>Submit</legend>
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                    <input type="reset" name="reset" id="reset" value="Reset"><br>
+                </fieldset>
+                <input type="messagebox" name="message" id="message" value="That's all,Thank you!">
+                <br>
+            </form>
+        </div>
+</section>
+   <aside id="sidebar">
+        <h4>Dragon Survey</h4>
+        <div class="line"></div>
+        <form action="" id="survey" method="POST">
+            <label>Your Favorite Dragon:</label><br>
+                <input type="checkbox" name="iceWing" id="iceWing">Ice Wing</input><br>
+                <input type="checkbox" name="fireWing" id="fireWing">Fire Wing</input><br>
+                <input type="checkbox" name="sandWing" id="sandWing">Sand Wing</input><br>
+                <input type="checkbox" name="seaWing" id="seaWing">Sea Wing</input><br>
+                <input type="checkbox" name="nightWing" id="nightWing">Night Wing</input><br>
+                <input type="checkbox" name="other" id="other">Other</input><br><br>
+            <label>Your Favorite Media :</label><br>
+                <input type="radio" name="media" id="media1" value="1">Song</input><br>
+                <input type="radio" name="media" id="media2" value="2">Drawing</input><br>
+                <input type="radio" name="media" id="media3" value="3">Lizzard</input><br>
+        </form>
+
+   </aside>
+   <footer>
+        <p>&copy; Copyright 2020 - Shuwen Tan 8666293.</p>
+   </footer>
+</body>
+</html>
