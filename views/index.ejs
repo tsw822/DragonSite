@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Welcome to Dragon World</title>
+    <link rel='stylesheet' href='/stylesheets/main.css' />
+    <%- include('layouts/icon'); -%>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <%- include('layouts/header'); -%>
+    <%- include('layouts/nav'); -%>
+    <%- include('layouts/aside_nav'); -%>
+   <section>
+        <h1>We Love Dragons</h1>
+        <div class="line"></div>
+        <img src="/images/alldragon.png" alt="dragon family" width="650">
+        <h5>Welcome to my dragon website!</h5>
+        <p>I'm Fiona, a 11-years-old girl in Grade 6. From my very little age, I have had great interests on magic world. I love dragons very much. From then on, I created a lot of dragon characters for my stories and drew many different kinds of dragons.</p>
+        <p>My mom is learning on computer application developing and building website, so she trys to create a dragon website for me, also for her own study project.</p>
+        <p>In this website, I'd like to share my loved pictures, drawings ,coloring sheets and media with you, all about dragons. I hope you like them.</p>
+        <p>Dragons are spiritual creations with high wisdom in the magic world, I hope more people knwoing them and like them!</p>
+        <p>Enjoy your dragon advanture here, I am looking forward to happy dragon time with you!</p>
+   </section>
+   <aside id="sidebar">
+        <h4>About Us</h4>
+        <div class="line"></div>
+        <ul>
+            <li>
+                Website Designer: Kardia Tan<br><br>
+                <i>student in Conestoga College CAD<br></i>
+            </li><br><br>
+            <li>
+                Image Drawer: Fiona Kasana<br><br>
+                <i>student in Grade 6</i>
+            </li><br><br>
+            <li>
+                Special Thanks:<br><br>
+                Rex<br>
+                Tiger<br>
+                Aria<br>
+            </li>
+        </ul>
+   </aside>
+   <%- include('layouts/footer'); -%>
+</body>
 </html>

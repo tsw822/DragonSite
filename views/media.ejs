@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Images</title>
+    <%- include('layouts/icon'); -%>
+    <link rel='stylesheet' href='/stylesheets/main.css' />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/media.css">
+</head>
+<body>
+    <%- include('layouts/header'); -%>
+    <%- include('layouts/nav'); -%>
+    <%- include('layouts/aside_nav'); -%>
+   <section>
+        <h1>Song and video about Dragon</h1>
+        <div class="line"></div>
+        <p>My favorite song: <em>"Puff the Magic Dragon"</em> from <i>The Brother Four</i> (lyrics in the right)</p>
+        <audio id="audioplayer" controls autoplay>
+            <source src="../media/puff the magic dragon - the br.mp3">
+        </audio>    
+        <p>There is a good video to show how to draw a cute dragon:</p>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qrjagatVCME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>If you want to draw better, another way is to observe lizzards in the real world. <br>Yes, they show good example to draw dragon skin and eyes.</p>
+        <video id="videoplayer" width="480" height="270" controls>
+            <source src="../media/lizard-dragon.mp4">
+        </video>
+    
+   </section>
+   <aside id="sidebar">
+        <h4> Lyrics</h4>
+        <div class="line"></div>
+        <p>Puff the magic dragon lived by the sea<br>
+            And frolicked in the autumn mist in a land called Honah Lee<br>
+            <br>
+            Little Jackie Paper loved that rascal Puff<br>
+            And brought him strings and sealing wax and other fancy stuff<br>
+            Together they would travel on a boat with billowed sail<br>
+            Jackie kept a lookout perched on Puff's gigantic tail<br>
+            Noble kings and princes would bow whene'er they came<br>
+            Pirate ships would lower their flags when Puff roared out his name<br>
+            <br>
+            A dragon lives forever, but not so little boys<br>
+            Painted wings and giant's rings make way for other toys<br>
+            One gray night it happened, Jackie Paper came no more<br>
+            And Puff, that mighty dragon, he ceased his fearless roar<br>
+            His head was bent in sorrow, green scales fell like rain<br>
+            Puff no longer went to play along the cherry lane<br>
+            Without his lifelong friend, Puff could not be brave<br>
+            So Puff, that mighty dragon, sadly slipped into his cave<br>
+            <br>
+            Oh, Puff the magic dragon lived by the sea
+            And frolicked in the autumn mist in a land called Honah Lee
+        </p>
+   </aside>
+   <%- include('layouts/footer'); -%>
+</body>
+</html>

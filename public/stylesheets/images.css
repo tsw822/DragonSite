@@ -1,0 +1,90 @@
+
+
+/*section*/
+section{
+    float: left;
+    width: 720px;
+    min-height: 1002px;
+    padding: 20px;
+    background-color: rgba(36, 10, 95, 0.959);
+}
+
+section h1{
+    font-style: normal;
+    text-shadow: 2px 1px 1px rgb(214, 235, 255);
+    font-size: 220%;
+    margin-top: .5em;
+}
+section img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.left{
+    width: 300px;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.right{
+    width: 300px;
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+section figure img{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    border: 3px dotted #f2972e;
+    box-shadow: 0 0 15px hsla(22, 100%, 85%, 0.712);
+    margin-bottom: 0px;
+}
+
+section figure figcaption{
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #cc2758;
+    margin-top: 5px;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 230px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+  }
+  .secondImage{
+    width: 300px;
+  }
+ .container:hover .overlay {
+    opacity: 1;
+  }
+aside{
+    height: 1061px;
+}
+/*sidebar*/
+#sidebar{
+    float: right;
+    width: 150px;
+    padding-left: 20px;
+    font-size: 110%;
+    min-height: 1022px;
+}
+#sidebar ul{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#sidebar ul li{
+    padding-bottom: 30px;
+    font-size: 120%;
+}

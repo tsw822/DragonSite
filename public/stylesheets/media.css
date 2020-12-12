@@ -1,0 +1,48 @@
+aside{
+    height: 1101px;
+}
+/*section*/
+section{
+    float: left;
+    width: 720px;
+    min-height: 1002px;
+    padding: 20px;
+    background-color: rgba(36, 10, 95, 0.959);
+}
+section p{
+    text-align: left;
+    font-size: 130%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+section h1{
+    font-style: normal;
+    text-shadow: 2px 1px 1px rgb(214, 235, 255);
+    font-size: 220%;
+    margin-top: .5em;
+}
+section em{
+    font-style: normal;
+    font-weight: bold;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height:0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+#videoplayer{
+    margin:auto 120px;
+}
+aside p{
+    font-size: 90%;
+    font-family:cursive;
+}

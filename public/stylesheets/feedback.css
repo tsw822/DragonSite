@@ -1,0 +1,105 @@
+aside{
+    height: 1066px;
+}
+/*section*/
+section{
+    float: left;
+    width: 720px;
+    min-height: 1002px;
+    padding: 20px;
+    background-color: rgba(36, 10, 95, 0.959);
+}
+section img{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+section h1{
+    font-style: normal;
+    text-shadow: 2px 1px 1px rgb(214, 235, 255);
+    font-size: 220%;
+    margin-top: .5em;
+}
+/*form*/
+form{
+	width: 680px;
+	font-size: 110%;
+	padding: .25em 0;
+	margin: auto;
+}
+label{
+	width: 10em;
+	text-align: right;
+	float: left;
+}
+fieldset{
+    margin-top: 2em;
+    margin-bottom: .8em;
+    padding: .7em;
+}
+legend{
+    color: white;
+    font-weight: bold;
+	font-size: 100%;
+}
+input{
+	width: 26em;
+	height: 2em;
+    margin-left: 3em;
+	margin-bottom: .5em;
+	font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input:required, input[required]{
+    border: 3px solid #facd8a;
+}
+#group{
+	height: 2.5em;
+}
+select{
+	width: 26em;
+	height: 10em;
+	margin-left: 3em;
+	margin-bottom: .5em;
+}
+input[type=submit],input[type=reset]{
+	width: 15em;
+	margin-left: 3em;
+    height: 25px;
+    box-shadow: 1px 1px 0px #a54f16;
+	border-radius: 3px;
+	font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 110%;
+	color:#10458b ;
+	background-color: #facd8a;
+}
+textarea{
+	margin-left: 3em;
+	width: 43em;
+	height: 8em;
+	margin-bottom: .5em;
+	font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input[type=messagebox]{
+	margin-left: 0px;
+	margin-top: 20px;
+	width: 41em;
+	font-size: 110%;
+	text-align: center;
+	color:#10458b ;
+	background-color: #b3dafa;
+}
+/*aside*/
+aside input{
+	width: 4em;
+	margin-left: 0;
+	margin-top: .5em;
+}
+aside label{
+	align-self: start;
+	color: #fff;
+	margin-bottom: .3em;
+	font-size: 95%;
+}
+aside form{
+	width: 150px;
+}
+
